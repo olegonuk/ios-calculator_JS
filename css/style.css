@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: "Inter", sans-serif;
+}
+/* Body calculator */
+.block-calc {
+   user-select: none;
+   width: 250px;
+   background: #1c1c1c;
+   margin: 0 auto;
+   padding: 20px 0px 0px;
+   color: #fff;
+   border-radius: 20px;
+}
+.row {
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 10px;
+}
+/*  Time block  */
+.row.top-row {
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10px;
+   font-size: 10px;
+   font-weight: bold;
+}
+.top-menu {
+   display: flex;
+   align-items: center;
+}
+.top-menu span {
+   margin: 0 2px;
+}
+/* Calculator value block  */
+.block-calc-val {
+   width: 85%;
+   height: 150px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   overflow: hidden;
+   font-size: 55px;
+}
+/* Button block */
+.btn-calc {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   font-size: 22px;
+   font-weight: 400;
+   background: #505050;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.btn-calc.btn-zero {
+   width: 110px;
+   border-radius: 25px;
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 20px;
+}
+.btn-calc.gray {
+   background: #d4d4d2;
+}
+.btn-calc.gray:active {
+   background: #fff;
+   color: #000;
+}
+.btn-calc.yellow {
+   background: #ff9500;
+}
+.btn-calc.yellow:active {
+   background: #fff;
+   color: #ff9500;
+}
+.btn-calc:active {
+   background: #7d7d7d;
+}
+/* Bottom block */
+.bottom-row {
+   width: 100px;
+   height: 4px;
+   background: #fff;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}

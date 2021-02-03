@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>IOS Calculator</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <!-- Body calculator -->
+         <div class="block-calc">
+            <!-- Time block -->
+            <div class="row top-row">
+               <div class="top-time">00:00</div>
+               <div class="top-menu">
+                  <img src="img/icon_signal.svg" alt="menu">
+                  <span>3G</span>
+                  <img src="img/icon_battery.svg" alt="menu">
+               </div>
+            </div>
+            <!-- Calculator value block -->
+            <div class="row">
+               <div class="block-calc-val">0</div>
+            </div>
+            <!-- Button block -->
+            <div class="row">
+               <div id="clear-btn" class="btn-calc gray">AC</div>
+               <div id="addMinys-btn" class="btn-calc gray" data-sign="-">+/-</div>
+               <div id="percent-Btn" class="btn-calc gray">%</div>
+               <div class="btn-calc btn-operator yellow" data-sign="/">&divide;</div>
+            </div>
+            <div class="row">
+               <div id="btn-mr-clear" class="btn-calc btn-operator">mc</div>
+               <div id="btn-mr-read" class="btn-calc btn-operator">mr</div>
+               <div id="btn-mr-minus" class="btn-calc btn-operator">m-</div>
+               <div id="btn-mrPlus" class="btn-calc btn-operator yellow">m+</div>
+            </div>
+            <div class="row">
+               <div class="btn-calc btn-number">7</div>
+               <div class="btn-calc btn-number">8</div>
+               <div class="btn-calc btn-number">9</div>
+               <div class="btn-calc btn-operator yellow" data-sign="*">&times;</div>
+            </div>
+            <div class="row">
+               <div class="btn-calc btn-number">4</div>
+               <div class="btn-calc btn-number">5</div>
+               <div class="btn-calc btn-number">6</div>
+               <div class="btn-calc btn-operator yellow" data-sign="-">&#8722;</div>
+            </div>
+            <div class="row">
+               <div class="btn-calc btn-number">1</div>
+               <div class="btn-calc btn-number">2</div>
+               <div class="btn-calc btn-number">3</div>
+               <div id="btn-calc-plus" class="btn-calc btn-operator yellow" data-sign="+">+</div>
+            </div>
+            <div class="row">
+               <div class="btn-calc btn-number btn-zero">0</div>
+               <div class="btn-calc btn-dot">&sbquo;</div>
+               <div id="btn-equal" class="btn-calc  yellow" data-sign="=">=</div>
+            </div>
+            <!-- Bottom block -->
+            <div class="row">
+               <span class="bottom-row"></span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Js file -->
+   <script src="js/script.js"></script>
+</body>
+
+</html>
